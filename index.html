@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="zh-Hant">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <title>TranslatR｜Windows 劃詞翻譯助手</title>
+    <meta
+      name="description"
+      content="選取文字按 Ctrl+Q，翻譯就出現在游標旁。TranslatR 常駐 Windows 系統匣，支援免費的 Google 翻譯與多種 AI 服務、字根拆解與語音朗讀。"
+    />
+    <meta property="og:title" content="TranslatR｜Windows 劃詞翻譯助手" />
+    <meta property="og:description" content="選取文字，按一下，就看懂。常駐 Windows 系統匣的翻譯助手。" />
+    <meta property="og:type" content="website" />
+    <meta name="theme-color" content="#eef2f0" media="(prefers-color-scheme: light)" />
+    <meta name="theme-color" content="#101514" media="(prefers-color-scheme: dark)" />
+    <link
+      rel="icon"
+      type="image/svg+xml"
+      href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Cpath d='M16 9 L66 6 Q78 5.5 78 17 L78 70 Q78 80 68 80.5 L16 82 Q5 82.3 5 71 L5 20 Q5 9.6 16 9Z' fill='%230b7d74'/%3E%3Cpath d='M5 22 L30 34 L5 52Z' fill='%23075a54'/%3E%3Cpath d='M30 70 L30 97 L53 85Z' fill='%238af0e1'/%3E%3Cpath d='M53 85 L80 97 L80 72Z' fill='%230e8f86'/%3E%3Cpath d='M30 26 Q30 19 37 18 L86 11 Q95 10 95 19 L95 63 Q95 72 86 73.5 L37 80 Q30 81 30 74Z' fill='%2345e0d1'/%3E%3Cpath d='M43 36 H78 M60.5 36 V66' stroke='%23fff' stroke-width='10.5' stroke-linecap='round' fill='none'/%3E%3C/svg%3E"
+    />
+
+    <!-- 主題：繪製前先套用使用者存過的選擇，避免淺深閃爍；沒存過就跟隨系統 -->
+    <script>
+      try {
+        var t = localStorage.getItem('translatr.landing.theme');
+        if (t === 'light' || t === 'dark') document.documentElement.setAttribute('data-theme', t);
+      } catch (e) {}
+    </script>
+
+    <!-- 字體：與 App 相同的 IBM Plex 家族，中文以 Noto Sans TC 補字 -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600&family=IBM+Plex+Sans:wght@400;500;600;700&family=IBM+Plex+Serif:wght@400&family=Noto+Sans+TC:wght@400;500;700&display=swap"
+    />
+    <script type="module" crossorigin src="/TranslatR-app/assets/index-BmLmA3Er.js"></script>
+    <link rel="stylesheet" crossorigin href="/TranslatR-app/assets/index-BGJdqr3u.css">
+  </head>
+  <body>
+    <div id="app"></div>
+  </body>
+</html>
