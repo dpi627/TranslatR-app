@@ -10,7 +10,7 @@ Windows 系統匣翻譯助手。選取文字，按下快捷鍵，就能在游標
 | [v0.1.3](https://github.com/dpi627/TranslatR-app/releases/latest) | 2026-11-05 | [5.34 MB](https://github.com/dpi627/TranslatR-app/releases/download/v0.1.3/TranslatR_0.1.3_x64-setup.exe) |
 <!-- release-info:end -->
 
-[![累計下載次數](https://img.shields.io/github/downloads/dpi627/TranslatR-app/total?style=flat-square&label=累計下載次數)](https://github.com/dpi627/TranslatR-app/releases)
+[![累計下載次數](https://img.shields.io/github/downloads/dpi627/TranslatR-app/total?style=flat-square&label=%E7%B4%AF%E8%A8%88%E4%B8%8B%E8%BC%89%E6%AC%A1%E6%95%B8&cacheSeconds=3600)](https://github.com/dpi627/TranslatR-app/releases)
 
 下載次數加總所有公開版本的全部 assets，包含安裝檔、更新資訊與簽章檔。
 
